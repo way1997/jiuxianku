@@ -1,0 +1,385 @@
+img {
+    width: 100%;
+}
+
+.bhy {
+    padding: 10px;
+    margin-top: 0px;
+}
+
+.bhy_app {
+    padding: 6px;
+    margin-top: 0px;
+}
+
+@media (max-width: 768px) {
+    .adImg {
+        width: 100%;
+    }
+
+    .brand {
+        width: 100%;
+        margin-top: 10px;
+    }
+
+    .brand li {
+        width: 24%;
+        margin: 1% 0 0 1.33%;
+        line-height: 2;
+    }
+
+    .brand li.first {
+        margin-left: 0;
+    }
+}
+
+@media (min-width: 768px) {
+    .ad {
+        width: 756px;
+        margin: 0 auto;
+    }
+
+    .adImg {
+        width: 480px;
+        float: left;
+    }
+
+    .brand {
+        width: 276px;
+        height: 240px;
+        float: left;
+    }
+
+    .brand li {
+        width: 48%;
+        height: 55px;
+        margin: 0 0 5px 2%;
+        line-height: 3.5;
+    }
+}
+
+.adImg a {
+    display: block;
+    float: left;
+}
+
+.adImg .ad1 {
+    width: 60%;
+}
+
+.adImg .ad2 {
+    width: 40%;
+}
+
+.adImg .ad3 {
+    width: 40%;
+}
+
+.brand li {
+    background: #FFFFFF;
+    float: left;
+    text-align: center;
+}
+
+.brand li.all a {
+    color: #de4943;
+    font-weight: bold;
+}
+
+.brand li a {
+    width: 98%;
+    display: block;
+    color: #373737;
+    font-size: 15px;
+    border: 1px solid #c3c3c3;
+    border-radius: 2px;
+}
+
+.recommend {
+    width: 100%;
+    height: auto;
+    margin: 20px auto 0;
+}
+
+.recommend .recTitle {
+    width: 100%;
+    height: 40px;
+    position: relative;
+}
+
+.recTitle .line {
+    height: 20px;
+    border-bottom: 1px solid #A2A2A2;
+}
+
+.recTitle .title {
+    width: 100px;
+    height: 40px;
+    background: #ffffff;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    line-height: 40px;
+    margin: 0 0 0 -50px;
+    text-align: center;
+    color: #3A3A3A;
+    font-family: "黑体";
+    font-size: 18px;
+}
+
+@media (max-width: 768px) {
+    .list li {
+        height: 100px;
+        padding: 10px;
+        border-top: 2px solid #e7e7e7;
+    }
+
+    .list li:first-child {
+        border-top: none;
+    }
+
+    .list .prodImg {
+        float: left;
+    }
+
+    .list .prodInfo {
+        display: block;
+        margin: 5px 0 0 110px;
+    }
+
+    .list li .tag {
+        top: 10px;
+        left: 0;
+    }
+}
+
+@media (min-width: 768px) {
+    .list li {
+        height: 200px;
+        float: left;
+        border-bottom: 2px solid #e7e7e7;
+        border-top: none;
+        width: 20%;
+        padding: 20px 2.5% 10px;
+    }
+
+    .list .prodImg {
+        margin: 0 auto;
+        float: none;
+    }
+
+    .list .prodInfo {
+        margin: 0;
+    }
+
+    .list li .tag {
+        top: 20px;
+        left: 10%;
+    }
+}
+
+.list li {
+    position: relative;
+}
+
+.prodLink {
+    width: 100%;
+    height: 100%;
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 2;
+    background: #fff;
+    opacity: 0;
+    filter: alpha(opacity=0);
+}
+
+.prodImg {
+    width: 100px;
+    height: 100px;
+    display: block;
+}
+
+.list li .tag {
+    width: 35px;
+    height: 16px;
+    position: absolute;
+    text-align: center;
+    font-size: 12px;
+    line-height: 15px;
+    padding-top: 2px;
+    background-color: #fe7774;
+    color: #fff;
+}
+
+.prodInfo .name {
+    color: #000000;
+    height: 36px;
+    line-height: 18px;
+    display: block;
+    overflow: hidden;
+}
+
+.prodInfo .slogan {
+    color: #f58f2b;
+    height: 18px;
+    overflow: hidden;
+    margin-bottom: 10px;
+}
+
+.prodInfo .price {
+    color: #df4a44;
+}
+
+.prodInfo .price strong {
+    font-size: 18px;
+    margin-left: 3px;
+}
+
+.prodInfo .price span {
+    font-size: 12px;
+    color: #999;
+    margin-left: 10px;
+    text-decoration: line-through;
+}
+
+.prodInfo .price .clubPrice {
+    display: inline-block;
+    font-size: 12px;
+    color: #252525;
+    margin-left: 6px;
+}
+
+.prodInfo .price .clubPrice i {
+    width: 34px;
+    height: 12px;
+    display: inline-block;
+    background: url(../images/club.png) no-repeat center center;
+    background-size: 34px 12px;
+    margin-left: 3px;
+    position: relative;
+    top: 1px;
+}
+
+.recAll {
+    background-color: #de4943;
+    border-radius: 3px;
+    height: 30px;
+    line-height: 30px;
+    margin: 20px auto;
+    text-align: center;
+    width: 110px;
+}
+
+.recAll a {
+    width: 100%;
+    display: block;
+    color: #FFFFFF;
+}
+
+/*wap跳转app  start*/
+
+/*.app-download{ height:43px; background:#2e2e2e; min-width:320px; max-width:760px; width:100%; margin:40px auto 0; position:relative; overflow:hidden;}*/
+
+/*.app-download .close{ width:43px; height:43px; display:block; position:absolute; left:0 top:0;}*/
+
+/*.app-download .close i,.app-download .add-logo{ background:url("../images/downapp/topApp.png") no-repeat 0 0; background-size:34px 50px;}*/
+
+/*.app-download .close i{ background-position:0 0; width:13px; height:13px; display:block; margin:15px 0 0 15px;}*/
+
+/*.app-download .add-logo{ background-position:0 -16px; width:30px; height:30px; display:block; position:absolute; top:7px; left:43px;}*/
+
+/*.down-btn {background: #fc5a5a none repeat scroll 0 0;color: #fff;display: block;font-size: 14px;height: 43px;line-height: 40px;padding: 0 5px;position: absolute;right: 0;text-align: center;text-decoration: none;top: 0;}*/
+
+/*.down-btn:hover{ text-decoration:none; color:#fff;}*/
+
+/*.app-download h3{ text-align:center; padding-top:7px; margin:0 auto; font-weight:normal;}*/
+
+/*.app-download h3 p{ line-height:14px; font-size:12px; color:#fff; width:100%; height:14px; overflow:hidden;text-overflow:ellipsis;white-space:nowrap;}*/
+
+/*.app-download h3 p.red{ color:#fc5a5a;}*/
+
+/*@media(max-width:640px){.app-download h3{width:50%;}}*/
+
+/*@media(min-width:641px) and (max-width:960px){.app-download h3{width:100%;}}*/
+.app-download {
+    height: 43px;
+    background: #2e2e2e;
+    min-width: 320px;
+    max-width: 730px;
+    width: 100%;
+    margin: 40px auto 0;
+    position: relative;
+    overflow: hidden;
+}
+
+.app-download .close {
+    display: block;
+    height: 43px;
+    position: absolute;
+    width: 43px;
+}
+
+.app-download .close i,
+.app-download .add-logo {
+    background: url("../images/downapp/topApp.png") no-repeat scroll 0 0 / 34px 50px;
+}
+
+.app-download .close i {
+    background-position: 0 0;
+    display: block;
+    height: 16px;
+    margin: 14px 0 0 14px;
+    width: 16px;
+}
+
+.app-download .add-logo {
+    background-position: 0 -16px;
+    display: block;
+    height: 30px;
+    left: 43px;
+    position: absolute;
+    top: 7px;
+    width: 30px;
+}
+
+.down-btn {
+    background: #e62929 none repeat scroll 0 0;
+    color: #fff;
+    display: block;
+    font-size: 14px;
+    height: 43px;
+    line-height: 43px;
+    padding: 0 30px;
+    position: absolute;
+    right: 0;
+    text-align: center;
+    text-decoration: none;
+    top: 0;
+}
+
+.down-btn:hover {
+    color: #fff;
+    text-decoration: none;
+}
+
+.app-download h3 {
+    font-weight: normal;
+    margin: 0 116px 0 73px;
+    padding-top: 7px;
+    text-align: center;
+}
+
+.app-download h3 p {
+    color: #fff;
+    font-size: 12px;
+    height: 14px;
+    line-height: 14px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    width: 100%;
+}
+
+/*wap跳转app  end*/
