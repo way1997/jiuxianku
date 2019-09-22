@@ -1,3 +1,13 @@
+body,
+button,
+input,
+select,
+textarea {
+    /* for ie */
+    font: 12px/2 Microsoft Yahei, -apple-system, PingFang SC;
+}
+
+
 img {
     width: 100%;
 }
