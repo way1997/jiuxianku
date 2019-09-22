@@ -9,6 +9,7 @@
   <link rel="stylesheet" href="../css/commonality/reset.css">
   <link rel="stylesheet" src="../css/wangchenyu/base.css">
   <link rel="stylesheet" href="../css/wangchenyu/head.css">
+  <link rel="stylesheet" type="text/css" href="https://m.jiuxian.com/mjava_statics/css/bhy.css?v0.1">
   <link rel="stylesheet" href="../css/wangchenyu/wine.css">
 </head>
 
@@ -32,6 +33,16 @@
     </ul>
   </div>
   <!-- content -->
+  <div class="app-download" id="appdownload">
+    <a href="javascript:;" class="close"><i class="close"></i></a> <span class="add-logo"></span>
+    <h3>
+      <p>打开酒仙网APP</p>
+      <p class="red">新人领198元礼包</p>
+
+    </h3>
+    <a class="down-btn" id="openApp" onclick="jxMlinkByUrl()">立即打开</a>
+    <input type="hidden" id="shopType" value="2">
+  </div>
   <section class="bhy" id="public">
     <div class="ad clearfix">
       <div class="adImg clearfix">
@@ -57,465 +68,546 @@
 
     </div>
     <!-- <div class="recommend  clearfix">
-          <div class="recTitle">
-            <div class="line"></div>
-            <div class="title">精品推荐</div>
-          </div>
-          <div class="recList">
-            <ul class="list clearfix">
-              <li class="clearfix"><a class="prodLink" href="https://m.jiuxian.com/m_v1/goods/view/28581"></a> <img class="prodImg" src="http://img10.jiuxian.com/2019/0822/22b4a133986640d28fe9b3857185b8aa4.jpg" original="http://img10.jiuxian.com/2019/0822/22b4a133986640d28fe9b3857185b8aa4.jpg">
-                <div class="prodInfo">
-                  <a class="name" href="https://m.jiuxian.com/m_v1/goods/view/28581">【红酒礼盒】澳洲红酒天鹅庄家族经典西拉干红葡萄酒黑色单支礼盒（双支装）</a>
-                  <p class="slogan">十几年如一日，精心酿造</p>
-                  <p class="price">
-                    <strong goodid="28581" class="nowPrice_28581">￥198.00</strong>
-                    <em goodidclub="28581" class="clubPrice" style="display:none;">
-                      <font></font><i></i>
-                    </em>
-                  </p>
-                </div>
-              </li>
-              <li class="clearfix"><a class="prodLink" href="https://m.jiuxian.com/m_v1/goods/view/1508"></a> <img class="prodImg" src="http://img08.jiuxian.com/2017/0626/46a5ce68b23440b1b51cbd67efc6651a4.jpg" original="http://img08.jiuxian.com/2017/0626/46a5ce68b23440b1b51cbd67efc6651a4.jpg">
-                <div class="prodInfo">
-                  <a class="name" href="https://m.jiuxian.com/m_v1/goods/view/1508">澳大利亚红酒奔富寇兰山赤霞珠西拉红葡萄酒750ml（又名：西拉卡本内）</a>
-                  <p class="slogan">橡木桶陈酿 扑鼻而来的圣诞蛋糕及布丁的香气 接着是肉桂与橡木的辛辣气息</p>
-                  <p class="price">
-                    <strong goodid="1508" class="nowPrice_1508">￥98.00</strong>
-                    <em goodidclub="1508" class="clubPrice" style="display:none;">
-                      <font></font><i></i>
-                    </em>
-                  </p>
-                </div>
-              </li>
-              <li class="clearfix"><a class="prodLink" href="https://m.jiuxian.com/m_v1/goods/view/16615"></a> <img class="prodImg" src="http://img08.jiuxian.com/2016/0118/4b612b9d8bfa4d7c9965857e0075cc574.jpg" original="http://img08.jiuxian.com/2016/0118/4b612b9d8bfa4d7c9965857e0075cc574.jpg">
-                <div class="prodInfo">
-                  <a class="name" href="https://m.jiuxian.com/m_v1/goods/view/16615">西班牙红酒西班牙德古斯特干红葡萄酒(双支皮盒套装）750ml*2</a>
-                  <p class="slogan">双支皮礼盒 酒具四件套</p>
-                  <p class="price">
-                    <strong goodid="16615" class="nowPrice_16615">￥129.00</strong>
-                    <em goodidclub="16615" class="clubPrice" style="display:none;">
-                      <font></font><i></i>
-                    </em>
-                  </p>
-                </div>
-              </li>
-              <li class="clearfix"><a class="prodLink" href="https://m.jiuxian.com/m_v1/goods/view/22288"></a> <img class="prodImg" src="http://img07.jiuxian.com/2018/1010/f2c25ce7820f44b6a1bd33e1e8c22e854.jpg" original="http://img07.jiuxian.com/2018/1010/f2c25ce7820f44b6a1bd33e1e8c22e854.jpg" style="display: block;">
-                <div class="prodInfo">
-                  <a class="name" href="https://m.jiuxian.com/m_v1/goods/view/22288">澳洲整箱红酒澳大利亚奔富洛神山庄设拉子赤霞珠红葡萄酒750ml（6瓶装）</a>
-                  <p class="slogan">奔富洛神混酿款，口感更丰富，热销爆款</p>
-                  <p class="price">
-                    <strong goodid="22288" class="nowPrice_22288">￥238.00</strong>
-                    <em goodidclub="22288" class="clubPrice" style="display:none;">
-                      <font></font><i></i>
-                    </em>
-                  </p>
-                </div>
-              </li>
-              <li class="clearfix"><a class="prodLink" href="https://m.jiuxian.com/m_v1/goods/view/22310"></a> <img class="prodImg" src="https://m.jiuxian.com/mjava_statics/images/loazy_img.png" original="http://img08.jiuxian.com/2017/1024/a4fca3b80f5f44858720f9a339a12d154.jpg">
-                <div class="prodInfo">
-                  <a class="name" href="https://m.jiuxian.com/m_v1/goods/view/22310">法国整箱红酒法国原瓶进口葛雷奥利干红葡萄酒750ml（6瓶套）酒杯酒刀</a>
-                  <p class="slogan">爆款热销 高性价比套装</p>
-                  <p class="price">
-                    <strong goodid="22310" class="nowPrice_22310">￥189.00</strong>
-                    <em goodidclub="22310" class="clubPrice" style="display:none;">
-                      <font></font><i></i>
-                    </em>
-                  </p>
-                </div>
-              </li>
-              <li class="clearfix"><a class="prodLink" href="https://m.jiuxian.com/m_v1/goods/view/18157"></a> <img class="prodImg" src="https://m.jiuxian.com/mjava_statics/images/loazy_img.png" original="http://img07.jiuxian.com/2018/1010/464ee721802649989e26de5371cd89a44.jpg">
-                <div class="prodInfo">
-                  <a class="name" href="https://m.jiuxian.com/m_v1/goods/view/18157">【红酒礼盒】西班牙整箱红酒原瓶进口莫拉斯城堡干红葡萄酒750ml*6（松木礼盒装）</a>
-                  <p class="slogan">热销爆款，补货归来</p>
-                  <p class="price">
-                    <strong goodid="18157" class="nowPrice_18157">￥299.00</strong>
-                    <em goodidclub="18157" class="clubPrice" style="display:none;">
-                      <font></font><i></i>
-                    </em>
-                  </p>
-                </div>
-              </li>
-              <li class="clearfix"><a class="prodLink" href="https://m.jiuxian.com/m_v1/goods/view/12010"></a> <img class="prodImg" src="https://m.jiuxian.com/mjava_statics/images/loazy_img.png" original="http://img08.jiuxian.com/2016/0928/bfcfdeac4fc34801904bd51eb5dc06064.jpg">
-                <div class="prodInfo">
-                  <a class="name" href="https://m.jiuxian.com/m_v1/goods/view/12010">法国整箱红酒法国思慕干红葡萄酒750ml（6瓶装）</a>
-                  <p class="slogan">朝思暮想，海外直采，五星好评，热卖爆款，库存有限</p>
-                  <p class="price">
-                    <strong goodid="12010" class="nowPrice_12010">￥199.00</strong>
-                    <em goodidclub="12010" class="clubPrice" style="display:none;">
-                      <font></font><i></i>
-                    </em>
-                  </p>
-                </div>
-              </li>
-              <li class="clearfix"><a class="prodLink" href="https://m.jiuxian.com/m_v1/goods/view/33699"></a> <img class="prodImg" src="https://m.jiuxian.com/mjava_statics/images/loazy_img.png" original="http://img06.jiuxian.com/2016/1230/c6bdbab51b654fe29dd9a1a2d570be934.jpg">
-                <div class="prodInfo">
-                  <a class="name" href="https://m.jiuxian.com/m_v1/goods/view/33699">智利整箱红酒智利干露.克拉克干红葡萄酒750ml（6瓶装）</a>
-                  <p class="slogan">智利直采名酒，干露酒庄出品</p>
-                  <p class="price">
-                    <strong goodid="33699" class="nowPrice_33699">￥198.00</strong>
-                    <em goodidclub="33699" class="clubPrice" style="display:none;">
-                      <font></font><i></i>
-                    </em>
-                  </p>
-                </div>
-              </li>
-              <li class="clearfix"><a class="prodLink" href="https://m.jiuxian.com/m_v1/goods/view/14899"></a> <img class="prodImg" src="https://m.jiuxian.com/mjava_statics/images/loazy_img.png" original="http://img06.jiuxian.com/2016/1109/964e4921b2724df282993cd4d30674de4.jpg">
-                <div class="prodInfo">
-                  <a class="name" href="https://m.jiuxian.com/m_v1/goods/view/14899">法国整箱红酒原瓶进口AOP勆迪干红葡萄酒750ml（6瓶装）</a>
-                  <p class="slogan">原瓶进口AOP级 浮雕酒标</p>
-                  <p class="price">
-                    <strong goodid="14899" class="nowPrice_14899">￥369.00</strong>
-                    <em goodidclub="14899" class="clubPrice" style="display:none;">
-                      <font></font><i></i>
-                    </em>
-                  </p>
-                </div>
-              </li>
-              <li class="clearfix"><a class="prodLink" href="https://m.jiuxian.com/m_v1/goods/view/2828"></a> <img class="prodImg" src="https://m.jiuxian.com/mjava_statics/images/loazy_img.png" original="http://img09.jiuxian.com/2017/0204/27f56db1e8454318a780458006426bcf4.jpg">
-                <div class="prodInfo">
-                  <a class="name" href="https://m.jiuxian.com/m_v1/goods/view/2828">澳洲整箱红酒黄尾袋鼠西拉红葡萄酒（6瓶装）</a>
-                  <p class="slogan">品澳洲红酒 从黄尾袋鼠开始</p>
-                  <p class="price">
-                    <strong goodid="2828" class="nowPrice_2828">￥268.00</strong>
-                    <em goodidclub="2828" class="clubPrice" style="display:none;">
-                      <font></font><i></i>
-                    </em>
-                  </p>
-                </div>
-              </li>
-              <li class="clearfix"><a class="prodLink" href="https://m.jiuxian.com/m_v1/goods/view/30015"></a> <img class="prodImg" src="https://m.jiuxian.com/mjava_statics/images/loazy_img.png" original="http://img06.jiuxian.com/2017/0913/6442cdd266cd4209a79e638392bd2cda4.jpg">
-                <div class="prodInfo">
-                  <a class="name" href="https://m.jiuxian.com/m_v1/goods/view/30015">【随时随意波尔多】法国红酒法国拉菲珍藏干红葡萄酒豪华双支礼盒（ASC正品行货定制版）</a>
-                  <p class="slogan">秉承拉菲精神，传承拉菲品质，有礼有面儿</p>
-                  <p class="price">
-                    <strong goodid="30015" class="nowPrice_30015">￥299.00</strong>
-                    <em goodidclub="30015" class="clubPrice" style="display:none;">
-                      <font></font><i></i>
-                    </em>
-                  </p>
-                </div>
-              </li>
-              <li class="clearfix"><a class="prodLink" href="https://m.jiuxian.com/m_v1/goods/view/15495"></a> <img class="prodImg" src="https://m.jiuxian.com/mjava_statics/images/loazy_img.png" original="http://img06.jiuxian.com/2016/0928/2845916c69f244958bffd54e557949964.jpg">
-                <div class="prodInfo">
-                  <a class="name" href="https://m.jiuxian.com/m_v1/goods/view/15495">【五洲海购特卖】法国整箱红酒法国原瓶进口莫蕾尔干红葡萄酒750ml（6瓶装）</a>
-                  <p class="slogan">IGP等级优良产区酒</p>
-                  <p class="price">
-                    <strong goodid="15495" class="nowPrice_15495">￥354.00</strong>
-                    <em goodidclub="15495" class="clubPrice" style="display:none;">
-                      <font></font><i></i>
-                    </em>
-                  </p>
-                </div>
-              </li>
-              <li class="clearfix"><a class="prodLink" href="https://m.jiuxian.com/m_v1/goods/view/15229"></a> <img class="prodImg" src="https://m.jiuxian.com/mjava_statics/images/loazy_img.png" original="http://img10.jiuxian.com/2017/0523/7dcce93c29ff478c87e14f215b368e854.jpg">
-                <div class="prodInfo">
-                  <a class="name" href="https://m.jiuxian.com/m_v1/goods/view/15229">法国红酒法国拉菲珍藏波尔多法定产区红葡萄酒（ASC正品行货）</a>
-                  <p class="slogan">ASC行货，品质保障</p>
-                  <p class="price">
-                    <strong goodid="15229" class="nowPrice_15229">￥89.00</strong>
-                    <em goodidclub="15229" class="clubPrice" style="display:none;">
-                      <font></font><i></i>
-                    </em>
-                  </p>
-                </div>
-              </li>
-              <li class="clearfix"><a class="prodLink" href="https://m.jiuxian.com/m_v1/goods/view/28811"></a> <img class="prodImg" src="https://m.jiuxian.com/mjava_statics/images/loazy_img.png" original="http://img06.jiuxian.com/2016/1012/4d5e95a5633f412db686b85dea5fc3f54.jpg">
-                <div class="prodInfo">
-                  <a class="name" href="https://m.jiuxian.com/m_v1/goods/view/28811">智利拉菲巴斯克卡本妮苏维翁红葡萄酒750ml*6(又名：华诗歌)</a>
-                  <p class="slogan">拉菲家族投资，秉承拉菲精神，传承拉菲品质，智利三大酒庄之一，欧洲古老方</p>
-                  <p class="price">
-                    <strong goodid="28811" class="nowPrice_28811">￥439.00</strong>
-                    <em goodidclub="28811" class="clubPrice" style="display:none;">
-                      <font></font><i></i>
-                    </em>
-                  </p>
-                </div>
-              </li>
-              <li class="clearfix"><a class="prodLink" href="https://m.jiuxian.com/m_v1/goods/view/14440"></a> <img class="prodImg" src="https://m.jiuxian.com/mjava_statics/images/loazy_img.png" original="http://img06.jiuxian.com/2016/1012/6efb435be39c4867a485b8191da230c14.jpg">
-                <div class="prodInfo">
-                  <a class="name" href="https://m.jiuxian.com/m_v1/goods/view/14440">整箱红酒7°通天柔红山葡萄甜酒750ml（6瓶装）</a>
-                  <p class="slogan">口感舒顺 回味优雅 味道甜美</p>
-                  <p class="price">
-                    <strong goodid="14440" class="nowPrice_14440">￥99.00</strong>
-                    <em goodidclub="14440" class="clubPrice" style="display:none;">
-                      <font></font><i></i>
-                    </em>
-                  </p>
-                </div>
-              </li>
-              <li class="clearfix"><a class="prodLink" href="https://m.jiuxian.com/m_v1/goods/view/23982"></a> <img class="prodImg" src="https://m.jiuxian.com/mjava_statics/images/loazy_img.png" original="http://img10.jiuxian.com/2015/0916/c89d76f224a04d4e90d51bdc730d0d904.jpg">
-                <div class="prodInfo">
-                  <a class="name" href="https://m.jiuxian.com/m_v1/goods/view/23982">【随时随意波尔多】法国红酒（原瓶进口）梅赫斯城堡干红葡萄酒750ml*2（双支皮盒套装）</a>
-                  <p class="slogan">1、精致鳄鱼纹皮盒 2、配送酒具四件套3、波尔多AOC城堡酒</p>
-                  <p class="price">
-                    <strong goodid="23982" class="nowPrice_23982">￥179.00</strong>
-                    <em goodidclub="23982" class="clubPrice" style="display:none;">
-                      <font></font><i></i>
-                    </em>
-                  </p>
-                </div>
-              </li>
-              <li class="clearfix"><a class="prodLink" href="https://m.jiuxian.com/m_v1/goods/view/29805"></a> <img class="prodImg" src="https://m.jiuxian.com/mjava_statics/images/loazy_img.png" original="http://img10.jiuxian.com/2019/0312/0cbdfc4710134a6e8390d65df1d35d074.jpg">
-                <div class="prodInfo">
-                  <a class="name" href="https://m.jiuxian.com/m_v1/goods/view/29805">澳洲整箱红酒澳大利亚丁戈树赤霞珠干红葡萄酒750ml（6瓶装）</a>
-                  <p class="slogan">南澳核心赤霞珠产区酒，上市3年销量达500万瓶，重型瓶，内外兼修</p>
-                  <p class="price">
-                    <strong goodid="29805" class="nowPrice_29805">￥834.00</strong>
-                    <em goodidclub="29805" class="clubPrice" style="display:none;">
-                      <font></font><i></i>
-                    </em>
-                  </p>
-                </div>
-              </li>
-              <li class="clearfix"><a class="prodLink" href="https://m.jiuxian.com/m_v1/goods/view/23978"></a> <img class="prodImg" src="https://m.jiuxian.com/mjava_statics/images/loazy_img.png" original="http://img08.jiuxian.com/2016/0826/b3599bbb5af14d45b6e2147efe6823c54.jpg">
-                <div class="prodInfo">
-                  <a class="name" href="https://m.jiuxian.com/m_v1/goods/view/23978">西班牙红酒（原瓶进口）醉爱干红葡萄酒750ml*2（双支皮盒套装）</a>
-                  <p class="slogan">优良地区餐酒，送礼有面 原瓶进口</p>
-                  <p class="price">
-                    <strong goodid="23978" class="nowPrice_23978">￥99.00</strong>
-                    <em goodidclub="23978" class="clubPrice" style="display:none;">
-                      <font></font><i></i>
-                    </em>
-                  </p>
-                </div>
-              </li>
-              <li class="clearfix"><a class="prodLink" href="https://m.jiuxian.com/m_v1/goods/view/29595"></a> <img class="prodImg" src="https://m.jiuxian.com/mjava_statics/images/loazy_img.png" original="http://img06.jiuxian.com/2016/0826/e8f0de7509784ad8b4633982345acce14.jpg">
-                <div class="prodInfo">
-                  <a class="name" href="https://m.jiuxian.com/m_v1/goods/view/29595">名庄红酒（列级庄·名庄·副牌）法国周伯通城堡2011副牌红葡萄酒750ml</a>
-                  <p class="slogan">四级庄副牌 ，你值得拥有</p>
-                  <p class="price">
-                    <strong goodid="29595" class="nowPrice_29595">￥349.00</strong>
-                    <em goodidclub="29595" class="clubPrice" style="display:none;">
-                      <font></font><i></i>
-                    </em>
-                  </p>
-                </div>
-              </li>
-              <li class="clearfix"><a class="prodLink" href="https://m.jiuxian.com/m_v1/goods/view/29600"></a> <img class="prodImg" src="https://m.jiuxian.com/mjava_statics/images/loazy_img.png" original="http://img06.jiuxian.com/2016/0825/3f6d59ae251144e18b1a4f66cd27d08b4.jpg">
-                <div class="prodInfo">
-                  <a class="name" href="https://m.jiuxian.com/m_v1/goods/view/29600">（名庄）法国红酒上梅多克周伯通城堡红葡萄酒750ml</a>
-                  <p class="slogan"></p>
-                  <p class="price">
-                    <strong goodid="29600" class="nowPrice_29600">￥199.00</strong>
-                    <em goodidclub="29600" class="clubPrice" style="display:none;">
-                      <font></font><i></i>
-                    </em>
-                  </p>
-                </div>
-              </li>
-              <li class="clearfix"><a class="prodLink" href="https://m.jiuxian.com/m_v1/goods/view/29601"></a> <img class="prodImg" src="https://m.jiuxian.com/mjava_statics/images/loazy_img.png" original="http://img06.jiuxian.com/2016/0805/4568c46234cc48e9badef57751538e0f4.jpg">
-                <div class="prodInfo">
-                  <a class="name" href="https://m.jiuxian.com/m_v1/goods/view/29601">法国玛玖思城堡金猴珍藏干红葡萄酒750ml</a>
-                  <p class="slogan"></p>
-                  <p class="price">
-                    <strong goodid="29601" class="nowPrice_29601">￥539.00</strong>
-                    <em goodidclub="29601" class="clubPrice" style="display:none;">
-                      <font></font><i></i>
-                    </em>
-                  </p>
-                </div>
-              </li>
-              <li class="clearfix"><a class="prodLink" href="https://m.jiuxian.com/m_v1/goods/view/29602"></a> <img class="prodImg" src="https://m.jiuxian.com/mjava_statics/images/loazy_img.png" original="http://img06.jiuxian.com/2016/0801/fbafe9bce39146658976622dec8e048a4.jpg">
-                <div class="prodInfo">
-                  <a class="name" href="https://m.jiuxian.com/m_v1/goods/view/29602">法国红酒法国老诺曼科比埃红葡萄酒750ml</a>
-                  <p class="slogan">法国AOP等级，酒体雄壮，回味悠长</p>
-                  <p class="price">
-                    <strong goodid="29602" class="nowPrice_29602">￥49.00</strong>
-                    <em goodidclub="29602" class="clubPrice" style="display:none;">
-                      <font></font><i></i>
-                    </em>
-                  </p>
-                </div>
-              </li>
-              <li class="clearfix"><a class="prodLink" href="https://m.jiuxian.com/m_v1/goods/view/29603"></a> <img class="prodImg" src="https://m.jiuxian.com/mjava_statics/images/loazy_img.png" original="http://img08.jiuxian.com/2016/0801/f87498ecc8a14a9fa9b1df851602dad24.jpg">
-                <div class="prodInfo">
-                  <a class="name" href="https://m.jiuxian.com/m_v1/goods/view/29603">法国老诺曼半干葡萄酒750ml</a>
-                  <p class="slogan"></p>
-                  <p class="price">
-                    <strong goodid="29603" class="nowPrice_29603">￥49.00</strong>
-                    <em goodidclub="29603" class="clubPrice" style="display:none;">
-                      <font></font><i></i>
-                    </em>
-                  </p>
-                </div>
-              </li>
-              <li class="clearfix"><a class="prodLink" href="https://m.jiuxian.com/m_v1/goods/view/30152"></a> <img class="prodImg" src="https://m.jiuxian.com/mjava_statics/images/loazy_img.png" original="http://img09.jiuxian.com/2016/0825/25143cfc00b24b6aacacdb42abca58754.jpg">
-                <div class="prodInfo">
-                  <a class="name" href="https://m.jiuxian.com/m_v1/goods/view/30152">法国狮吼堡干红葡萄酒750ml</a>
-                  <p class="slogan"></p>
-                  <p class="price">
-                    <strong goodid="30152" class="nowPrice_30152">￥399.00</strong>
-                    <em goodidclub="30152" class="clubPrice" style="display:none;">
-                      <font></font><i></i>
-                    </em>
-                  </p>
-                </div>
-              </li>
-              <li class="clearfix"><a class="prodLink" href="https://m.jiuxian.com/m_v1/goods/view/30625"></a> <img class="prodImg" src="https://m.jiuxian.com/mjava_statics/images/loazy_img.png" original="http://img07.jiuxian.com/2016/1118/594f2b45669c43d896cb1d804fe604b74.jpg">
-                <div class="prodInfo">
-                  <a class="name" href="https://m.jiuxian.com/m_v1/goods/view/30625">法国岚黛芙波尔多干红葡萄酒750ml</a>
-                  <p class="slogan">原瓶进口 高性价比</p>
-                  <p class="price">
-                    <strong goodid="30625" class="nowPrice_30625">￥138.00</strong>
-                    <em goodidclub="30625" class="clubPrice" style="display:none;">
-                      <font></font><i></i>
-                    </em>
-                  </p>
-                </div>
-              </li>
-              <li class="clearfix"><a class="prodLink" href="https://m.jiuxian.com/m_v1/goods/view/30944"></a> <img class="prodImg" src="https://m.jiuxian.com/mjava_statics/images/loazy_img.png" original="http://img09.jiuxian.com/2016/1104/468bceb4720a4eb0a81c4dd6ff1e93e84.jpg">
-                <div class="prodInfo">
-                  <a class="name" href="https://m.jiuxian.com/m_v1/goods/view/30944">法国罗纳之桥尼姆山丘干红葡萄酒750ml</a>
-                  <p class="slogan">法国原瓶进口，酒体饱满，送礼、自饮皆可</p>
-                  <p class="price">
-                    <strong goodid="30944" class="nowPrice_30944">￥369.00</strong>
-                    <em goodidclub="30944" class="clubPrice" style="display:none;">
-                      <font></font><i></i>
-                    </em>
-                  </p>
-                </div>
-              </li>
-              <li class="clearfix"><a class="prodLink" href="https://m.jiuxian.com/m_v1/goods/view/31053"></a> <img class="prodImg" src="https://m.jiuxian.com/mjava_statics/images/loazy_img.png" original="http://img08.jiuxian.com/2016/1019/fe0160500afb4eb7a8ae64689c5ebf024.jpg">
-                <div class="prodInfo">
-                  <a class="name" href="https://m.jiuxian.com/m_v1/goods/view/31053">【随时随意波尔多】法国（原瓶进口）孟德斯鸠男爵干红葡萄酒750ml</a>
-                  <p class="slogan">尊贵的品质，优惠的价格，单宁细致 回味较长</p>
-                  <p class="price">
-                    <strong goodid="31053" class="nowPrice_31053">￥139.00</strong>
-                    <em goodidclub="31053" class="clubPrice" style="display:none;">
-                      <font></font><i></i>
-                    </em>
-                  </p>
-                </div>
-              </li>
-              <li class="clearfix"><a class="prodLink" href="https://m.jiuxian.com/m_v1/goods/view/31103"></a> <img class="prodImg" src="https://m.jiuxian.com/mjava_statics/images/loazy_img.png" original="http://img07.jiuxian.com/2017/0504/f4f8a073cba64320aeaee577d03c7c1a4.jpg">
-                <div class="prodInfo">
-                  <a class="name" href="https://m.jiuxian.com/m_v1/goods/view/31103">天使树干红葡萄酒750ml</a>
-                  <p class="slogan">海外直采，下单后7个工作日左右发货</p>
-                  <p class="price">
-                    <strong goodid="31103" class="nowPrice_31103">￥238.00</strong>
-                    <em goodidclub="31103" class="clubPrice" style="display:none;">
-                      <font></font><i></i>
-                    </em>
-                  </p>
-                </div>
-              </li>
-              <li class="clearfix"><a class="prodLink" href="https://m.jiuxian.com/m_v1/goods/view/29593"></a> <img class="prodImg" src="https://m.jiuxian.com/mjava_statics/images/loazy_img.png" original="http://img09.jiuxian.com/2016/0805/20ff3552da4447929a7a58c0b72210094.jpg">
-                <div class="prodInfo">
-                  <a class="name" href="https://m.jiuxian.com/m_v1/goods/view/29593">法国嘉兰斯城堡干红葡萄酒750ml</a>
-                  <p class="slogan"></p>
-                  <p class="price">
-                    <strong goodid="29593" class="nowPrice_29593">￥175.00</strong>
-                    <em goodidclub="29593" class="clubPrice" style="display:none;">
-                      <font></font><i></i>
-                    </em>
-                  </p>
-                </div>
-              </li>
-              <li class="clearfix"><a class="prodLink" href="https://m.jiuxian.com/m_v1/goods/view/29592"></a> <img class="prodImg" src="https://m.jiuxian.com/mjava_statics/images/loazy_img.png" original="http://img08.jiuxian.com/2016/0805/483217a99a764454914d5defecee22c54.jpg">
-                <div class="prodInfo">
-                  <a class="name" href="https://m.jiuxian.com/m_v1/goods/view/29592">法国拉奥尔城堡干红葡萄酒750ml</a>
-                  <p class="slogan">产自格拉芙</p>
-                  <p class="price">
-                    <strong goodid="29592" class="nowPrice_29592">￥299.00</strong>
-                    <em goodidclub="29592" class="clubPrice" style="display:none;">
-                      <font></font><i></i>
-                    </em>
-                  </p>
-                </div>
-              </li>
-              <li class="clearfix"><a class="prodLink" href="https://m.jiuxian.com/m_v1/goods/view/29588"></a> <img class="prodImg" src="https://m.jiuxian.com/mjava_statics/images/loazy_img.png" original="http://img10.jiuxian.com/2016/0831/e025cf5515ba4293ae31bafd54be98164.jpg">
-                <div class="prodInfo">
-                  <a class="name" href="https://m.jiuxian.com/m_v1/goods/view/29588">法国拉奥尔勃艮第干红葡萄酒750ml</a>
-                  <p class="slogan">【勃艮第来袭】一款漂洋过海来到中国的勃艮第，一款跟罗曼尼康帝同一个产区</p>
-                  <p class="price">
-                    <strong goodid="29588" class="nowPrice_29588">￥89.00</strong>
-                    <em goodidclub="29588" class="clubPrice" style="display:none;">
-                      <font></font><i></i>
-                    </em>
-                  </p>
-                </div>
-              </li>
-              <li class="clearfix"><a class="prodLink" href="https://m.jiuxian.com/m_v1/goods/view/14074"></a> <img class="prodImg" src="https://m.jiuxian.com/mjava_statics/images/loazy_img.png" original="http://img10.jiuxian.com/2016/0928/836d9e4d6f3b450fb685ac2f7264c0294.jpg">
-                <div class="prodInfo">
-                  <a class="name" href="https://m.jiuxian.com/m_v1/goods/view/14074">法国菈维干红葡萄酒750ml（6瓶装）</a>
-                  <p class="slogan">原瓶进口、IGP级别</p>
-                  <p class="price">
-                    <strong goodid="14074" class="nowPrice_14074">￥354.00</strong>
-                    <em goodidclub="14074" class="clubPrice" style="display:none;">
-                      <font></font><i></i>
-                    </em>
-                  </p>
-                </div>
-              </li>
-              <li class="clearfix"><a class="prodLink" href="https://m.jiuxian.com/m_v1/goods/view/20955"></a> <img class="prodImg" src="https://m.jiuxian.com/mjava_statics/images/loazy_img.png" original="http://img08.jiuxian.com/2016/1012/134d90ea99614a908ab3c6e66c453d854.jpg">
-                <div class="prodInfo">
-                  <a class="name" href="https://m.jiuxian.com/m_v1/goods/view/20955">法国红酒套装维克特干红葡萄酒750ml（6瓶装）</a>
-                  <p class="slogan">爆款囤货 法国进口，实惠套装</p>
-                  <p class="price">
-                    <strong goodid="20955" class="nowPrice_20955">￥234.00</strong>
-                    <em goodidclub="20955" class="clubPrice" style="display:none;">
-                      <font></font><i></i>
-                    </em>
-                  </p>
-                </div>
-              </li>
-              <li class="clearfix"><a class="prodLink" href="https://m.jiuxian.com/m_v1/goods/view/7873"></a> <img class="prodImg" src="https://m.jiuxian.com/mjava_statics/images/loazy_img.png" original="http://img08.jiuxian.com/2016/1012/ae91a6bd3bbf4b668ad4882001551a7b4.jpg">
-                <div class="prodInfo">
-                  <a class="name" href="https://m.jiuxian.com/m_v1/goods/view/7873">法国整箱红酒法国原瓶进口AOC传世圣蒙干红葡萄酒750ml(6瓶装)</a>
-                  <p class="slogan">法国AOC级别，圣•蒙法定小产区</p>
-                  <p class="price">
-                    <strong goodid="7873" class="nowPrice_7873">￥414.00</strong>
-                    <em goodidclub="7873" class="clubPrice" style="display:none;">
-                      <font></font><i></i>
-                    </em>
-                  </p>
-                </div>
-              </li>
-              <li class="clearfix"><a class="prodLink" href="https://m.jiuxian.com/m_v1/goods/view/11951"></a> <img class="prodImg" src="https://m.jiuxian.com/mjava_statics/images/loazy_img.png" original="http://img10.jiuxian.com/2017/0508/9759c878f53e4b198b8a3ebe08230d334.jpg">
-                <div class="prodInfo">
-                  <a class="name" href="https://m.jiuxian.com/m_v1/goods/view/11951">茅台干红葡萄酒（黑标）（6瓶装）</a>
-                  <p class="slogan"></p>
-                  <p class="price">
-                    <strong goodid="11951" class="nowPrice_11951">￥399.00</strong>
-                    <em goodidclub="11951" class="clubPrice" style="display:none;">
-                      <font></font><i></i>
-                    </em>
-                  </p>
-                </div>
-              </li>
-              <li class="clearfix"><a class="prodLink" href="https://m.jiuxian.com/m_v1/goods/view/23468"></a> <img class="prodImg" src="https://m.jiuxian.com/mjava_statics/images/loazy_img.png" original="http://img07.jiuxian.com/2015/0828/7aa7e779caf749928d5dd473b0dc67dd4.jpg">
-                <div class="prodInfo">
-                  <a class="name" href="https://m.jiuxian.com/m_v1/goods/view/23468">西班牙红酒西班牙奥兰骑士酒庄欧瑞雅DO级干红葡萄酒750ml</a>
-                  <p class="slogan">原瓶进口 品质保证</p>
-                  <p class="price">
-                    <strong goodid="23468" class="nowPrice_23468">￥49.00</strong>
-                    <em goodidclub="23468" class="clubPrice" style="display:none;">
-                      <font></font><i></i>
-                    </em>
-                  </p>
-                </div>
-              </li>
-              <li class="clearfix"><a class="prodLink" href="https://m.jiuxian.com/m_v1/goods/view/12433"></a> <img class="prodImg" src="https://m.jiuxian.com/mjava_statics/images/loazy_img.png" original="http://img10.jiuxian.com/2015/1026/fef020e6a8884e1a9f1f1b6aab41fcfb4.jpg">
-                <div class="prodInfo">
-                  <a class="name" href="https://m.jiuxian.com/m_v1/goods/view/12433">法莱雅酒堡美乐干红葡萄酒双支礼盒（皮）750ml*2</a>
-                  <p class="slogan">双支礼盒 实惠到家！</p>
-                  <p class="price">
-                    <strong goodid="12433" class="nowPrice_12433">￥199.00</strong>
-                    <em goodidclub="12433" class="clubPrice" style="display:none;">
-                      <font></font><i></i>
-                    </em>
-                  </p>
-                </div>
-              </li>
-            </ul>
-          </div>
-          <div class="recAll">
-    
-            <a href="https://mlist.jiuxian.com/m_v1/search/filter/2/0/0/0/0/0/0/0/0/1/0/sale">查看全部</a>
-    
-    
-          </div>
-        </div> -->
+      <div class="recTitle">
+        <div class="line"></div>
+        <div class="title">精品推荐</div>
+      </div>
+      <div class="recList">
+        <ul class="list clearfix">
+          <li class="clearfix"><a class="prodLink" href="https://m.jiuxian.com/m_v1/goods/view/28581"></a> <img
+              class="prodImg" src="http://img10.jiuxian.com/2019/0822/22b4a133986640d28fe9b3857185b8aa4.jpg"
+              original="http://img10.jiuxian.com/2019/0822/22b4a133986640d28fe9b3857185b8aa4.jpg">
+            <div class="prodInfo">
+              <a class="name" href="https://m.jiuxian.com/m_v1/goods/view/28581">【红酒礼盒】澳洲红酒天鹅庄家族经典西拉干红葡萄酒黑色单支礼盒（双支装）</a>
+              <p class="slogan">十几年如一日，精心酿造</p>
+              <p class="price">
+                <strong goodid="28581" class="nowPrice_28581">￥198.00</strong>
+                <em goodidclub="28581" class="clubPrice" style="display:none;">
+                  <font></font><i></i>
+                </em>
+              </p>
+            </div>
+          </li>
+          <li class="clearfix"><a class="prodLink" href="https://m.jiuxian.com/m_v1/goods/view/1508"></a> <img
+              class="prodImg" src="http://img08.jiuxian.com/2017/0626/46a5ce68b23440b1b51cbd67efc6651a4.jpg"
+              original="http://img08.jiuxian.com/2017/0626/46a5ce68b23440b1b51cbd67efc6651a4.jpg">
+            <div class="prodInfo">
+              <a class="name" href="https://m.jiuxian.com/m_v1/goods/view/1508">澳大利亚红酒奔富寇兰山赤霞珠西拉红葡萄酒750ml（又名：西拉卡本内）</a>
+              <p class="slogan">橡木桶陈酿 扑鼻而来的圣诞蛋糕及布丁的香气 接着是肉桂与橡木的辛辣气息</p>
+              <p class="price">
+                <strong goodid="1508" class="nowPrice_1508">￥98.00</strong>
+                <em goodidclub="1508" class="clubPrice" style="display:none;">
+                  <font></font><i></i>
+                </em>
+              </p>
+            </div>
+          </li>
+          <li class="clearfix"><a class="prodLink" href="https://m.jiuxian.com/m_v1/goods/view/16615"></a> <img
+              class="prodImg" src="http://img08.jiuxian.com/2016/0118/4b612b9d8bfa4d7c9965857e0075cc574.jpg"
+              original="http://img08.jiuxian.com/2016/0118/4b612b9d8bfa4d7c9965857e0075cc574.jpg">
+            <div class="prodInfo">
+              <a class="name" href="https://m.jiuxian.com/m_v1/goods/view/16615">西班牙红酒西班牙德古斯特干红葡萄酒(双支皮盒套装）750ml*2</a>
+              <p class="slogan">双支皮礼盒 酒具四件套</p>
+              <p class="price">
+                <strong goodid="16615" class="nowPrice_16615">￥129.00</strong>
+                <em goodidclub="16615" class="clubPrice" style="display:none;">
+                  <font></font><i></i>
+                </em>
+              </p>
+            </div>
+          </li>
+          <li class="clearfix"><a class="prodLink" href="https://m.jiuxian.com/m_v1/goods/view/22288"></a> <img
+              class="prodImg" src="http://img07.jiuxian.com/2018/1010/f2c25ce7820f44b6a1bd33e1e8c22e854.jpg"
+              original="http://img07.jiuxian.com/2018/1010/f2c25ce7820f44b6a1bd33e1e8c22e854.jpg"
+              style="display: block;">
+            <div class="prodInfo">
+              <a class="name"
+                href="https://m.jiuxian.com/m_v1/goods/view/22288">澳洲整箱红酒澳大利亚奔富洛神山庄设拉子赤霞珠红葡萄酒750ml（6瓶装）</a>
+              <p class="slogan">奔富洛神混酿款，口感更丰富，热销爆款</p>
+              <p class="price">
+                <strong goodid="22288" class="nowPrice_22288">￥238.00</strong>
+                <em goodidclub="22288" class="clubPrice" style="display:none;">
+                  <font></font><i></i>
+                </em>
+              </p>
+            </div>
+          </li>
+          <li class="clearfix"><a class="prodLink" href="https://m.jiuxian.com/m_v1/goods/view/22310"></a> <img
+              class="prodImg" src="https://m.jiuxian.com/mjava_statics/images/loazy_img.png"
+              original="http://img08.jiuxian.com/2017/1024/a4fca3b80f5f44858720f9a339a12d154.jpg">
+            <div class="prodInfo">
+              <a class="name" href="https://m.jiuxian.com/m_v1/goods/view/22310">法国整箱红酒法国原瓶进口葛雷奥利干红葡萄酒750ml（6瓶套）酒杯酒刀</a>
+              <p class="slogan">爆款热销 高性价比套装</p>
+              <p class="price">
+                <strong goodid="22310" class="nowPrice_22310">￥189.00</strong>
+                <em goodidclub="22310" class="clubPrice" style="display:none;">
+                  <font></font><i></i>
+                </em>
+              </p>
+            </div>
+          </li>
+          <li class="clearfix"><a class="prodLink" href="https://m.jiuxian.com/m_v1/goods/view/18157"></a> <img
+              class="prodImg" src="https://m.jiuxian.com/mjava_statics/images/loazy_img.png"
+              original="http://img07.jiuxian.com/2018/1010/464ee721802649989e26de5371cd89a44.jpg">
+            <div class="prodInfo">
+              <a class="name"
+                href="https://m.jiuxian.com/m_v1/goods/view/18157">【红酒礼盒】西班牙整箱红酒原瓶进口莫拉斯城堡干红葡萄酒750ml*6（松木礼盒装）</a>
+              <p class="slogan">热销爆款，补货归来</p>
+              <p class="price">
+                <strong goodid="18157" class="nowPrice_18157">￥299.00</strong>
+                <em goodidclub="18157" class="clubPrice" style="display:none;">
+                  <font></font><i></i>
+                </em>
+              </p>
+            </div>
+          </li>
+          <li class="clearfix"><a class="prodLink" href="https://m.jiuxian.com/m_v1/goods/view/12010"></a> <img
+              class="prodImg" src="https://m.jiuxian.com/mjava_statics/images/loazy_img.png"
+              original="http://img08.jiuxian.com/2016/0928/bfcfdeac4fc34801904bd51eb5dc06064.jpg">
+            <div class="prodInfo">
+              <a class="name" href="https://m.jiuxian.com/m_v1/goods/view/12010">法国整箱红酒法国思慕干红葡萄酒750ml（6瓶装）</a>
+              <p class="slogan">朝思暮想，海外直采，五星好评，热卖爆款，库存有限</p>
+              <p class="price">
+                <strong goodid="12010" class="nowPrice_12010">￥199.00</strong>
+                <em goodidclub="12010" class="clubPrice" style="display:none;">
+                  <font></font><i></i>
+                </em>
+              </p>
+            </div>
+          </li>
+          <li class="clearfix"><a class="prodLink" href="https://m.jiuxian.com/m_v1/goods/view/33699"></a> <img
+              class="prodImg" src="https://m.jiuxian.com/mjava_statics/images/loazy_img.png"
+              original="http://img06.jiuxian.com/2016/1230/c6bdbab51b654fe29dd9a1a2d570be934.jpg">
+            <div class="prodInfo">
+              <a class="name" href="https://m.jiuxian.com/m_v1/goods/view/33699">智利整箱红酒智利干露.克拉克干红葡萄酒750ml（6瓶装）</a>
+              <p class="slogan">智利直采名酒，干露酒庄出品</p>
+              <p class="price">
+                <strong goodid="33699" class="nowPrice_33699">￥198.00</strong>
+                <em goodidclub="33699" class="clubPrice" style="display:none;">
+                  <font></font><i></i>
+                </em>
+              </p>
+            </div>
+          </li>
+          <li class="clearfix"><a class="prodLink" href="https://m.jiuxian.com/m_v1/goods/view/14899"></a> <img
+              class="prodImg" src="https://m.jiuxian.com/mjava_statics/images/loazy_img.png"
+              original="http://img06.jiuxian.com/2016/1109/964e4921b2724df282993cd4d30674de4.jpg">
+            <div class="prodInfo">
+              <a class="name" href="https://m.jiuxian.com/m_v1/goods/view/14899">法国整箱红酒原瓶进口AOP勆迪干红葡萄酒750ml（6瓶装）</a>
+              <p class="slogan">原瓶进口AOP级 浮雕酒标</p>
+              <p class="price">
+                <strong goodid="14899" class="nowPrice_14899">￥369.00</strong>
+                <em goodidclub="14899" class="clubPrice" style="display:none;">
+                  <font></font><i></i>
+                </em>
+              </p>
+            </div>
+          </li>
+          <li class="clearfix"><a class="prodLink" href="https://m.jiuxian.com/m_v1/goods/view/2828"></a> <img
+              class="prodImg" src="https://m.jiuxian.com/mjava_statics/images/loazy_img.png"
+              original="http://img09.jiuxian.com/2017/0204/27f56db1e8454318a780458006426bcf4.jpg">
+            <div class="prodInfo">
+              <a class="name" href="https://m.jiuxian.com/m_v1/goods/view/2828">澳洲整箱红酒黄尾袋鼠西拉红葡萄酒（6瓶装）</a>
+              <p class="slogan">品澳洲红酒 从黄尾袋鼠开始</p>
+              <p class="price">
+                <strong goodid="2828" class="nowPrice_2828">￥268.00</strong>
+                <em goodidclub="2828" class="clubPrice" style="display:none;">
+                  <font></font><i></i>
+                </em>
+              </p>
+            </div>
+          </li>
+          <li class="clearfix"><a class="prodLink" href="https://m.jiuxian.com/m_v1/goods/view/30015"></a> <img
+              class="prodImg" src="https://m.jiuxian.com/mjava_statics/images/loazy_img.png"
+              original="http://img06.jiuxian.com/2017/0913/6442cdd266cd4209a79e638392bd2cda4.jpg">
+            <div class="prodInfo">
+              <a class="name"
+                href="https://m.jiuxian.com/m_v1/goods/view/30015">【随时随意波尔多】法国红酒法国拉菲珍藏干红葡萄酒豪华双支礼盒（ASC正品行货定制版）</a>
+              <p class="slogan">秉承拉菲精神，传承拉菲品质，有礼有面儿</p>
+              <p class="price">
+                <strong goodid="30015" class="nowPrice_30015">￥299.00</strong>
+                <em goodidclub="30015" class="clubPrice" style="display:none;">
+                  <font></font><i></i>
+                </em>
+              </p>
+            </div>
+          </li>
+          <li class="clearfix"><a class="prodLink" href="https://m.jiuxian.com/m_v1/goods/view/15495"></a> <img
+              class="prodImg" src="https://m.jiuxian.com/mjava_statics/images/loazy_img.png"
+              original="http://img06.jiuxian.com/2016/0928/2845916c69f244958bffd54e557949964.jpg">
+            <div class="prodInfo">
+              <a class="name"
+                href="https://m.jiuxian.com/m_v1/goods/view/15495">【五洲海购特卖】法国整箱红酒法国原瓶进口莫蕾尔干红葡萄酒750ml（6瓶装）</a>
+              <p class="slogan">IGP等级优良产区酒</p>
+              <p class="price">
+                <strong goodid="15495" class="nowPrice_15495">￥354.00</strong>
+                <em goodidclub="15495" class="clubPrice" style="display:none;">
+                  <font></font><i></i>
+                </em>
+              </p>
+            </div>
+          </li>
+          <li class="clearfix"><a class="prodLink" href="https://m.jiuxian.com/m_v1/goods/view/15229"></a> <img
+              class="prodImg" src="https://m.jiuxian.com/mjava_statics/images/loazy_img.png"
+              original="http://img10.jiuxian.com/2017/0523/7dcce93c29ff478c87e14f215b368e854.jpg">
+            <div class="prodInfo">
+              <a class="name" href="https://m.jiuxian.com/m_v1/goods/view/15229">法国红酒法国拉菲珍藏波尔多法定产区红葡萄酒（ASC正品行货）</a>
+              <p class="slogan">ASC行货，品质保障</p>
+              <p class="price">
+                <strong goodid="15229" class="nowPrice_15229">￥89.00</strong>
+                <em goodidclub="15229" class="clubPrice" style="display:none;">
+                  <font></font><i></i>
+                </em>
+              </p>
+            </div>
+          </li>
+          <li class="clearfix"><a class="prodLink" href="https://m.jiuxian.com/m_v1/goods/view/28811"></a> <img
+              class="prodImg" src="https://m.jiuxian.com/mjava_statics/images/loazy_img.png"
+              original="http://img06.jiuxian.com/2016/1012/4d5e95a5633f412db686b85dea5fc3f54.jpg">
+            <div class="prodInfo">
+              <a class="name" href="https://m.jiuxian.com/m_v1/goods/view/28811">智利拉菲巴斯克卡本妮苏维翁红葡萄酒750ml*6(又名：华诗歌)</a>
+              <p class="slogan">拉菲家族投资，秉承拉菲精神，传承拉菲品质，智利三大酒庄之一，欧洲古老方</p>
+              <p class="price">
+                <strong goodid="28811" class="nowPrice_28811">￥439.00</strong>
+                <em goodidclub="28811" class="clubPrice" style="display:none;">
+                  <font></font><i></i>
+                </em>
+              </p>
+            </div>
+          </li>
+          <li class="clearfix"><a class="prodLink" href="https://m.jiuxian.com/m_v1/goods/view/14440"></a> <img
+              class="prodImg" src="https://m.jiuxian.com/mjava_statics/images/loazy_img.png"
+              original="http://img06.jiuxian.com/2016/1012/6efb435be39c4867a485b8191da230c14.jpg">
+            <div class="prodInfo">
+              <a class="name" href="https://m.jiuxian.com/m_v1/goods/view/14440">整箱红酒7°通天柔红山葡萄甜酒750ml（6瓶装）</a>
+              <p class="slogan">口感舒顺 回味优雅 味道甜美</p>
+              <p class="price">
+                <strong goodid="14440" class="nowPrice_14440">￥99.00</strong>
+                <em goodidclub="14440" class="clubPrice" style="display:none;">
+                  <font></font><i></i>
+                </em>
+              </p>
+            </div>
+          </li>
+          <li class="clearfix"><a class="prodLink" href="https://m.jiuxian.com/m_v1/goods/view/23982"></a> <img
+              class="prodImg" src="https://m.jiuxian.com/mjava_statics/images/loazy_img.png"
+              original="http://img10.jiuxian.com/2015/0916/c89d76f224a04d4e90d51bdc730d0d904.jpg">
+            <div class="prodInfo">
+              <a class="name"
+                href="https://m.jiuxian.com/m_v1/goods/view/23982">【随时随意波尔多】法国红酒（原瓶进口）梅赫斯城堡干红葡萄酒750ml*2（双支皮盒套装）</a>
+              <p class="slogan">1、精致鳄鱼纹皮盒 2、配送酒具四件套3、波尔多AOC城堡酒</p>
+              <p class="price">
+                <strong goodid="23982" class="nowPrice_23982">￥179.00</strong>
+                <em goodidclub="23982" class="clubPrice" style="display:none;">
+                  <font></font><i></i>
+                </em>
+              </p>
+            </div>
+          </li>
+          <li class="clearfix"><a class="prodLink" href="https://m.jiuxian.com/m_v1/goods/view/29805"></a> <img
+              class="prodImg" src="https://m.jiuxian.com/mjava_statics/images/loazy_img.png"
+              original="http://img10.jiuxian.com/2019/0312/0cbdfc4710134a6e8390d65df1d35d074.jpg">
+            <div class="prodInfo">
+              <a class="name" href="https://m.jiuxian.com/m_v1/goods/view/29805">澳洲整箱红酒澳大利亚丁戈树赤霞珠干红葡萄酒750ml（6瓶装）</a>
+              <p class="slogan">南澳核心赤霞珠产区酒，上市3年销量达500万瓶，重型瓶，内外兼修</p>
+              <p class="price">
+                <strong goodid="29805" class="nowPrice_29805">￥834.00</strong>
+                <em goodidclub="29805" class="clubPrice" style="display:none;">
+                  <font></font><i></i>
+                </em>
+              </p>
+            </div>
+          </li>
+          <li class="clearfix"><a class="prodLink" href="https://m.jiuxian.com/m_v1/goods/view/23978"></a> <img
+              class="prodImg" src="https://m.jiuxian.com/mjava_statics/images/loazy_img.png"
+              original="http://img08.jiuxian.com/2016/0826/b3599bbb5af14d45b6e2147efe6823c54.jpg">
+            <div class="prodInfo">
+              <a class="name" href="https://m.jiuxian.com/m_v1/goods/view/23978">西班牙红酒（原瓶进口）醉爱干红葡萄酒750ml*2（双支皮盒套装）</a>
+              <p class="slogan">优良地区餐酒，送礼有面 原瓶进口</p>
+              <p class="price">
+                <strong goodid="23978" class="nowPrice_23978">￥99.00</strong>
+                <em goodidclub="23978" class="clubPrice" style="display:none;">
+                  <font></font><i></i>
+                </em>
+              </p>
+            </div>
+          </li>
+          <li class="clearfix"><a class="prodLink" href="https://m.jiuxian.com/m_v1/goods/view/29595"></a> <img
+              class="prodImg" src="https://m.jiuxian.com/mjava_statics/images/loazy_img.png"
+              original="http://img06.jiuxian.com/2016/0826/e8f0de7509784ad8b4633982345acce14.jpg">
+            <div class="prodInfo">
+              <a class="name"
+                href="https://m.jiuxian.com/m_v1/goods/view/29595">名庄红酒（列级庄·名庄·副牌）法国周伯通城堡2011副牌红葡萄酒750ml</a>
+              <p class="slogan">四级庄副牌 ，你值得拥有</p>
+              <p class="price">
+                <strong goodid="29595" class="nowPrice_29595">￥349.00</strong>
+                <em goodidclub="29595" class="clubPrice" style="display:none;">
+                  <font></font><i></i>
+                </em>
+              </p>
+            </div>
+          </li>
+          <li class="clearfix"><a class="prodLink" href="https://m.jiuxian.com/m_v1/goods/view/29600"></a> <img
+              class="prodImg" src="https://m.jiuxian.com/mjava_statics/images/loazy_img.png"
+              original="http://img06.jiuxian.com/2016/0825/3f6d59ae251144e18b1a4f66cd27d08b4.jpg">
+            <div class="prodInfo">
+              <a class="name" href="https://m.jiuxian.com/m_v1/goods/view/29600">（名庄）法国红酒上梅多克周伯通城堡红葡萄酒750ml</a>
+              <p class="slogan"></p>
+              <p class="price">
+                <strong goodid="29600" class="nowPrice_29600">￥199.00</strong>
+                <em goodidclub="29600" class="clubPrice" style="display:none;">
+                  <font></font><i></i>
+                </em>
+              </p>
+            </div>
+          </li>
+          <li class="clearfix"><a class="prodLink" href="https://m.jiuxian.com/m_v1/goods/view/29601"></a> <img
+              class="prodImg" src="https://m.jiuxian.com/mjava_statics/images/loazy_img.png"
+              original="http://img06.jiuxian.com/2016/0805/4568c46234cc48e9badef57751538e0f4.jpg">
+            <div class="prodInfo">
+              <a class="name" href="https://m.jiuxian.com/m_v1/goods/view/29601">法国玛玖思城堡金猴珍藏干红葡萄酒750ml</a>
+              <p class="slogan"></p>
+              <p class="price">
+                <strong goodid="29601" class="nowPrice_29601">￥539.00</strong>
+                <em goodidclub="29601" class="clubPrice" style="display:none;">
+                  <font></font><i></i>
+                </em>
+              </p>
+            </div>
+          </li>
+          <li class="clearfix"><a class="prodLink" href="https://m.jiuxian.com/m_v1/goods/view/29602"></a> <img
+              class="prodImg" src="https://m.jiuxian.com/mjava_statics/images/loazy_img.png"
+              original="http://img06.jiuxian.com/2016/0801/fbafe9bce39146658976622dec8e048a4.jpg">
+            <div class="prodInfo">
+              <a class="name" href="https://m.jiuxian.com/m_v1/goods/view/29602">法国红酒法国老诺曼科比埃红葡萄酒750ml</a>
+              <p class="slogan">法国AOP等级，酒体雄壮，回味悠长</p>
+              <p class="price">
+                <strong goodid="29602" class="nowPrice_29602">￥49.00</strong>
+                <em goodidclub="29602" class="clubPrice" style="display:none;">
+                  <font></font><i></i>
+                </em>
+              </p>
+            </div>
+          </li>
+          <li class="clearfix"><a class="prodLink" href="https://m.jiuxian.com/m_v1/goods/view/29603"></a> <img
+              class="prodImg" src="https://m.jiuxian.com/mjava_statics/images/loazy_img.png"
+              original="http://img08.jiuxian.com/2016/0801/f87498ecc8a14a9fa9b1df851602dad24.jpg">
+            <div class="prodInfo">
+              <a class="name" href="https://m.jiuxian.com/m_v1/goods/view/29603">法国老诺曼半干葡萄酒750ml</a>
+              <p class="slogan"></p>
+              <p class="price">
+                <strong goodid="29603" class="nowPrice_29603">￥49.00</strong>
+                <em goodidclub="29603" class="clubPrice" style="display:none;">
+                  <font></font><i></i>
+                </em>
+              </p>
+            </div>
+          </li>
+          <li class="clearfix"><a class="prodLink" href="https://m.jiuxian.com/m_v1/goods/view/30152"></a> <img
+              class="prodImg" src="https://m.jiuxian.com/mjava_statics/images/loazy_img.png"
+              original="http://img09.jiuxian.com/2016/0825/25143cfc00b24b6aacacdb42abca58754.jpg">
+            <div class="prodInfo">
+              <a class="name" href="https://m.jiuxian.com/m_v1/goods/view/30152">法国狮吼堡干红葡萄酒750ml</a>
+              <p class="slogan"></p>
+              <p class="price">
+                <strong goodid="30152" class="nowPrice_30152">￥399.00</strong>
+                <em goodidclub="30152" class="clubPrice" style="display:none;">
+                  <font></font><i></i>
+                </em>
+              </p>
+            </div>
+          </li>
+          <li class="clearfix"><a class="prodLink" href="https://m.jiuxian.com/m_v1/goods/view/30625"></a> <img
+              class="prodImg" src="https://m.jiuxian.com/mjava_statics/images/loazy_img.png"
+              original="http://img07.jiuxian.com/2016/1118/594f2b45669c43d896cb1d804fe604b74.jpg">
+            <div class="prodInfo">
+              <a class="name" href="https://m.jiuxian.com/m_v1/goods/view/30625">法国岚黛芙波尔多干红葡萄酒750ml</a>
+              <p class="slogan">原瓶进口 高性价比</p>
+              <p class="price">
+                <strong goodid="30625" class="nowPrice_30625">￥138.00</strong>
+                <em goodidclub="30625" class="clubPrice" style="display:none;">
+                  <font></font><i></i>
+                </em>
+              </p>
+            </div>
+          </li>
+          <li class="clearfix"><a class="prodLink" href="https://m.jiuxian.com/m_v1/goods/view/30944"></a> <img
+              class="prodImg" src="https://m.jiuxian.com/mjava_statics/images/loazy_img.png"
+              original="http://img09.jiuxian.com/2016/1104/468bceb4720a4eb0a81c4dd6ff1e93e84.jpg">
+            <div class="prodInfo">
+              <a class="name" href="https://m.jiuxian.com/m_v1/goods/view/30944">法国罗纳之桥尼姆山丘干红葡萄酒750ml</a>
+              <p class="slogan">法国原瓶进口，酒体饱满，送礼、自饮皆可</p>
+              <p class="price">
+                <strong goodid="30944" class="nowPrice_30944">￥369.00</strong>
+                <em goodidclub="30944" class="clubPrice" style="display:none;">
+                  <font></font><i></i>
+                </em>
+              </p>
+            </div>
+          </li>
+          <li class="clearfix"><a class="prodLink" href="https://m.jiuxian.com/m_v1/goods/view/31053"></a> <img
+              class="prodImg" src="https://m.jiuxian.com/mjava_statics/images/loazy_img.png"
+              original="http://img08.jiuxian.com/2016/1019/fe0160500afb4eb7a8ae64689c5ebf024.jpg">
+            <div class="prodInfo">
+              <a class="name" href="https://m.jiuxian.com/m_v1/goods/view/31053">【随时随意波尔多】法国（原瓶进口）孟德斯鸠男爵干红葡萄酒750ml</a>
+              <p class="slogan">尊贵的品质，优惠的价格，单宁细致 回味较长</p>
+              <p class="price">
+                <strong goodid="31053" class="nowPrice_31053">￥139.00</strong>
+                <em goodidclub="31053" class="clubPrice" style="display:none;">
+                  <font></font><i></i>
+                </em>
+              </p>
+            </div>
+          </li>
+          <li class="clearfix"><a class="prodLink" href="https://m.jiuxian.com/m_v1/goods/view/31103"></a> <img
+              class="prodImg" src="https://m.jiuxian.com/mjava_statics/images/loazy_img.png"
+              original="http://img07.jiuxian.com/2017/0504/f4f8a073cba64320aeaee577d03c7c1a4.jpg">
+            <div class="prodInfo">
+              <a class="name" href="https://m.jiuxian.com/m_v1/goods/view/31103">天使树干红葡萄酒750ml</a>
+              <p class="slogan">海外直采，下单后7个工作日左右发货</p>
+              <p class="price">
+                <strong goodid="31103" class="nowPrice_31103">￥238.00</strong>
+                <em goodidclub="31103" class="clubPrice" style="display:none;">
+                  <font></font><i></i>
+                </em>
+              </p>
+            </div>
+          </li>
+          <li class="clearfix"><a class="prodLink" href="https://m.jiuxian.com/m_v1/goods/view/29593"></a> <img
+              class="prodImg" src="https://m.jiuxian.com/mjava_statics/images/loazy_img.png"
+              original="http://img09.jiuxian.com/2016/0805/20ff3552da4447929a7a58c0b72210094.jpg">
+            <div class="prodInfo">
+              <a class="name" href="https://m.jiuxian.com/m_v1/goods/view/29593">法国嘉兰斯城堡干红葡萄酒750ml</a>
+              <p class="slogan"></p>
+              <p class="price">
+                <strong goodid="29593" class="nowPrice_29593">￥175.00</strong>
+                <em goodidclub="29593" class="clubPrice" style="display:none;">
+                  <font></font><i></i>
+                </em>
+              </p>
+            </div>
+          </li>
+          <li class="clearfix"><a class="prodLink" href="https://m.jiuxian.com/m_v1/goods/view/29592"></a> <img
+              class="prodImg" src="https://m.jiuxian.com/mjava_statics/images/loazy_img.png"
+              original="http://img08.jiuxian.com/2016/0805/483217a99a764454914d5defecee22c54.jpg">
+            <div class="prodInfo">
+              <a class="name" href="https://m.jiuxian.com/m_v1/goods/view/29592">法国拉奥尔城堡干红葡萄酒750ml</a>
+              <p class="slogan">产自格拉芙</p>
+              <p class="price">
+                <strong goodid="29592" class="nowPrice_29592">￥299.00</strong>
+                <em goodidclub="29592" class="clubPrice" style="display:none;">
+                  <font></font><i></i>
+                </em>
+              </p>
+            </div>
+          </li>
+          <li class="clearfix"><a class="prodLink" href="https://m.jiuxian.com/m_v1/goods/view/29588"></a> <img
+              class="prodImg" src="https://m.jiuxian.com/mjava_statics/images/loazy_img.png"
+              original="http://img10.jiuxian.com/2016/0831/e025cf5515ba4293ae31bafd54be98164.jpg">
+            <div class="prodInfo">
+              <a class="name" href="https://m.jiuxian.com/m_v1/goods/view/29588">法国拉奥尔勃艮第干红葡萄酒750ml</a>
+              <p class="slogan">【勃艮第来袭】一款漂洋过海来到中国的勃艮第，一款跟罗曼尼康帝同一个产区</p>
+              <p class="price">
+                <strong goodid="29588" class="nowPrice_29588">￥89.00</strong>
+                <em goodidclub="29588" class="clubPrice" style="display:none;">
+                  <font></font><i></i>
+                </em>
+              </p>
+            </div>
+          </li>
+          <li class="clearfix"><a class="prodLink" href="https://m.jiuxian.com/m_v1/goods/view/14074"></a> <img
+              class="prodImg" src="https://m.jiuxian.com/mjava_statics/images/loazy_img.png"
+              original="http://img10.jiuxian.com/2016/0928/836d9e4d6f3b450fb685ac2f7264c0294.jpg">
+            <div class="prodInfo">
+              <a class="name" href="https://m.jiuxian.com/m_v1/goods/view/14074">法国菈维干红葡萄酒750ml（6瓶装）</a>
+              <p class="slogan">原瓶进口、IGP级别</p>
+              <p class="price">
+                <strong goodid="14074" class="nowPrice_14074">￥354.00</strong>
+                <em goodidclub="14074" class="clubPrice" style="display:none;">
+                  <font></font><i></i>
+                </em>
+              </p>
+            </div>
+          </li>
+          <li class="clearfix"><a class="prodLink" href="https://m.jiuxian.com/m_v1/goods/view/20955"></a> <img
+              class="prodImg" src="https://m.jiuxian.com/mjava_statics/images/loazy_img.png"
+              original="http://img08.jiuxian.com/2016/1012/134d90ea99614a908ab3c6e66c453d854.jpg">
+            <div class="prodInfo">
+              <a class="name" href="https://m.jiuxian.com/m_v1/goods/view/20955">法国红酒套装维克特干红葡萄酒750ml（6瓶装）</a>
+              <p class="slogan">爆款囤货 法国进口，实惠套装</p>
+              <p class="price">
+                <strong goodid="20955" class="nowPrice_20955">￥234.00</strong>
+                <em goodidclub="20955" class="clubPrice" style="display:none;">
+                  <font></font><i></i>
+                </em>
+              </p>
+            </div>
+          </li>
+          <li class="clearfix"><a class="prodLink" href="https://m.jiuxian.com/m_v1/goods/view/7873"></a> <img
+              class="prodImg" src="https://m.jiuxian.com/mjava_statics/images/loazy_img.png"
+              original="http://img08.jiuxian.com/2016/1012/ae91a6bd3bbf4b668ad4882001551a7b4.jpg">
+            <div class="prodInfo">
+              <a class="name" href="https://m.jiuxian.com/m_v1/goods/view/7873">法国整箱红酒法国原瓶进口AOC传世圣蒙干红葡萄酒750ml(6瓶装)</a>
+              <p class="slogan">法国AOC级别，圣•蒙法定小产区</p>
+              <p class="price">
+                <strong goodid="7873" class="nowPrice_7873">￥414.00</strong>
+                <em goodidclub="7873" class="clubPrice" style="display:none;">
+                  <font></font><i></i>
+                </em>
+              </p>
+            </div>
+          </li>
+          <li class="clearfix"><a class="prodLink" href="https://m.jiuxian.com/m_v1/goods/view/11951"></a> <img
+              class="prodImg" src="https://m.jiuxian.com/mjava_statics/images/loazy_img.png"
+              original="http://img10.jiuxian.com/2017/0508/9759c878f53e4b198b8a3ebe08230d334.jpg">
+            <div class="prodInfo">
+              <a class="name" href="https://m.jiuxian.com/m_v1/goods/view/11951">茅台干红葡萄酒（黑标）（6瓶装）</a>
+              <p class="slogan"></p>
+              <p class="price">
+                <strong goodid="11951" class="nowPrice_11951">￥399.00</strong>
+                <em goodidclub="11951" class="clubPrice" style="display:none;">
+                  <font></font><i></i>
+                </em>
+              </p>
+            </div>
+          </li>
+          <li class="clearfix"><a class="prodLink" href="https://m.jiuxian.com/m_v1/goods/view/23468"></a> <img
+              class="prodImg" src="https://m.jiuxian.com/mjava_statics/images/loazy_img.png"
+              original="http://img07.jiuxian.com/2015/0828/7aa7e779caf749928d5dd473b0dc67dd4.jpg">
+            <div class="prodInfo">
+              <a class="name" href="https://m.jiuxian.com/m_v1/goods/view/23468">西班牙红酒西班牙奥兰骑士酒庄欧瑞雅DO级干红葡萄酒750ml</a>
+              <p class="slogan">原瓶进口 品质保证</p>
+              <p class="price">
+                <strong goodid="23468" class="nowPrice_23468">￥49.00</strong>
+                <em goodidclub="23468" class="clubPrice" style="display:none;">
+                  <font></font><i></i>
+                </em>
+              </p>
+            </div>
+          </li>
+          <li class="clearfix"><a class="prodLink" href="https://m.jiuxian.com/m_v1/goods/view/12433"></a> <img
+              class="prodImg" src="https://m.jiuxian.com/mjava_statics/images/loazy_img.png"
+              original="http://img10.jiuxian.com/2015/1026/fef020e6a8884e1a9f1f1b6aab41fcfb4.jpg">
+            <div class="prodInfo">
+              <a class="name" href="https://m.jiuxian.com/m_v1/goods/view/12433">法莱雅酒堡美乐干红葡萄酒双支礼盒（皮）750ml*2</a>
+              <p class="slogan">双支礼盒 实惠到家！</p>
+              <p class="price">
+                <strong goodid="12433" class="nowPrice_12433">￥199.00</strong>
+                <em goodidclub="12433" class="clubPrice" style="display:none;">
+                  <font></font><i></i>
+                </em>
+              </p>
+            </div>
+          </li>
+        </ul>
+      </div>
+      <div class="recAll">
+
+        <a href="https://mlist.jiuxian.com/m_v1/search/filter/2/0/0/0/0/0/0/0/0/1/0/sale">查看全部</a>
+
+
+      </div>
+    </div> -->
   </section>
 
 </body>
