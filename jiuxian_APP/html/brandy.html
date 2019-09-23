@@ -1,0 +1,121 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="viewport"
+        content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=0">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta http-equiv="Expires" content="0">
+    <meta http-equiv="Cache-Control" content="no-cache">
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta name="wap-font-scale" content="no">
+    <title>洋酒</title>
+    <link href="../css/wangchenyu/base.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" type="text/css" href="../css/wangchenyu/wine.css">
+    <link href="https://m.jiuxian.com/mjava_statics/css/head.css?v1.0" rel="stylesheet" type="text/css">
+    <link rel="shortcut icon" href="https://m.jiuxian.com/mjava_statics/images/favicon.ico"
+        mce_href="https://m.jiuxian.com/mjava_statics/images/favicon.ico" type="image/x-icon">
+    <!--  -->
+    <script src="../js/commonality/jquery-1.12.3.min.js"></script>
+    <script src="../js/wangchenyu/lazyload.js"></script>
+    <script src="../js/commonality/underscore-min.js"></script>
+</head>
+
+<body>
+    <!-- nav -->
+    <div class="publicHead" id="head">
+        <div class="head clearfix">
+            <a class="back" href="javascript:void(0)" onclick="backpage();"></a>
+            <h2 class="headTitle">洋酒</h2>
+            <a class="navBar" href="javascript:;"></a>
+        </div>
+        <ul class="nav">
+            <li class="home"><i></i><span>首页</span><a id="daohang_home" href="https://m.jiuxian.com/?from=topNav"></a>
+            </li>
+            <li class="topsearch"><i></i><span>搜索</span><a id="daohang_search"
+                    href="https://m.jiuxian.com/m_v1/search?from=topNav"></a></li>
+            <li class="cart"><i></i><span>购物车</span><a id="daohang_gouwuche"
+                    href="https://mcart.jiuxian.com/cart/info?from=topNav"></a></li>
+            <li class="commuser"><i></i><span>我的酒仙</span><a id="daohang_wodejiuxian"
+                    href="https://mmember.jiuxian.com/user?from=topNav"></a></li>
+        </ul>
+    </div>
+    <!-- 广告栏 -->
+    <div class="app-download" id="appdownload">
+        <a href="javascript:;" class="close"><i class="close"></i></a> <span class="add-logo"></span>
+        <h3>
+            <p>打开酒仙网APP</p>
+            <p class="red">新人领198元礼包</p>
+
+        </h3>
+        <a class="down-btn" id="openApp" onclick="jxMlinkByUrl()">立即打开</a>
+        <input type="hidden" id="shopType" value="2">
+    </div>
+    <!-- content -->
+    <section class="bhy" id="public">
+        <div class="ad clearfix">
+            <div class="adImg clearfix">
+                <a class="ad1" href="javascript:;"><img class="lazy"
+                        data-original="../images/wangchenyu/adimg/brandy001.jpg"></a>
+                <a class="ad2" href="javascript:;"><img class="lazy"
+                        data-original="../images/wangchenyu/adimg/brandy002.jpg"></a>
+                <a class="ad3" href="javascript:;"><img class="lazy"
+                        data-original="../images/wangchenyu/adimg/brandy003.jpg"></a>
+            </div>
+            <ul class="brand clearfix">
+                <li class="first"><a href="javascript:;">白兰地</a>
+                </li>
+                <li><a href="javascript:;">威士忌</a></li>
+                <li><a href="javascript:;">伏特加</a></li>
+                <li><a href="javascript:;">龙舌兰</a></li>
+                <li class="first"><a href="javascript:;">朗姆酒</a>
+                </li>
+                <li><a href="javascript:;">预调酒</a></li>
+                <li><a href="javascript:;">韩国烧酒</a></li>
+                <li class="all"><a href="javascript:;">查看全部</a></li>
+            </ul>
+        </div>
+        <div class="recommend  clearfix">
+            <div class="recTitle">
+                <div class="line"></div>
+                <div class="title">精品推荐</div>
+            </div>
+            <section id="comsect">
+                <div class="recList">
+                    <ul class="list clearfix" id="toutiao">
+                    </ul>
+                </div>
+                <div class="recAll">
+                    <a href="javascript:;" class="loadall">查看全部</a>
+                </div>
+            </section>
+        </div>
+    </section>
+    <input type="hidden" id="type" value="2">
+
+</body>
+
+<!-- 模板 -->
+<script type="text/template" id="template">
+  <li class="clearfix">
+    <a class="prodLink" href="javascript:;"></a>
+    <img class="prodImg lazy" data-original="<%=pordImg%>" >
+  <div class="prodInfo">
+    <a class="name" href="javascript:;"><%=name%></a>
+    <p class="slogan"><%=slogan%></p>
+    <p class="price">
+      <strong goodid="28581" class="nowPrice_28581"><%=price%></strong>
+    </p>
+  </div>
+</li>
+</script>
+<script src="../js/wangchenyu/upTree.js"></script>
+<script src="../js/wangchenyu/wine.js"></script>
+<script>
+    var wf = new Student(1, 1, 10);
+</script>
+
+</html>

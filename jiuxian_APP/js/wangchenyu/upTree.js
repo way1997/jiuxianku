@@ -78,6 +78,3 @@ Student.prototype.bindEvent = function () {
         $(".recAll").css("display", "none");
     })
 }
-
-
-var wf = new Student(1, 1, 10);
