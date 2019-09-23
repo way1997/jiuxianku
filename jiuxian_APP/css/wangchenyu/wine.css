@@ -209,6 +209,8 @@ img {
     width: 100px;
     height: 100px;
     display: block;
+    background: url(../../images/wangchenyu/jiu_bg.png);
+    background-size: 100% 100%;
 }
 
 .list li .tag {
@@ -333,7 +335,7 @@ img {
 
 .app-download .close i,
 .app-download .add-logo {
-    background: url("../images/downapp/topApp.png") no-repeat scroll 0 0 / 34px 50px;
+    background: url("../../images/wangchenyu/topApp.png") no-repeat scroll 0 0 / 34px 50px;
 }
 
 .app-download .close i {
@@ -393,3 +395,5 @@ img {
 }
 
 /*wap跳转app  end*/
+/* 图片懒加载样式 */
+.recommend .recList .list .prodLink img.prodImg {}
