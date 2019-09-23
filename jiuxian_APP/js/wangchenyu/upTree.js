@@ -24,6 +24,9 @@ Student.prototype.getStudent = function (phpnum, pageNumber, pagrow) {
 
         _.each(list, function (dictionary) {
             new Feed(dictionary);
+            $("img.lazy").lazyload({
+                effect: "fadeIn",
+            });
         });
     });
 }
@@ -32,9 +35,7 @@ function Feed(dictionary) {
     this.template_str = $("#template").html();
     var template_compiled = _.template(this.template_str);
     this.$dom = $(template_compiled(dictionary));
-    $("img.lazy").lazyload({
-        effect: "fadeIn",
-    });
+
     $("#toutiao").append(this.$dom);
 
 }
