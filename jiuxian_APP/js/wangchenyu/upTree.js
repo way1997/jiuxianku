@@ -6,11 +6,12 @@ function Student(phpnum, pageNumber, row) {
     this.getStudent(this.phpnum, this.pageNumber, this.row);
     this.$dom = null;
     this.lock = true;
-    // this.bindEvent();
+    this.listlength = 0;
+    this.bindEvent();
 
 }
 Student.prototype.getStudent = function (phpnum, pageNumber, pagrow) {
-    console.log(phpnum, pageNumber, pagrow)
+    // console.log(phpnum, pageNumber, pagrow)
     var self = this;
     $.get("../php/wangchenyu/" + phpnum + ".php?page=" + pageNumber + "&pagesize=" + pagrow, function (data) {
         // console.log(data);
@@ -19,6 +20,7 @@ Student.prototype.getStudent = function (phpnum, pageNumber, pagrow) {
         // console.log(dataobj);
         //数组
         var list = dataobj.result;
+        self.listlength = list.length;
         //遍历字典，组建DOM上树
         // console.log(list);
 
@@ -28,6 +30,7 @@ Student.prototype.getStudent = function (phpnum, pageNumber, pagrow) {
                 effect: "fadeIn",
             });
         });
+
     });
 }
 //Feed类
@@ -51,30 +54,30 @@ Student.prototype.bindEvent = function () {
         var C = $(document).height();
         var rate = (A + B) / C;
         if (rate > 0.8) {
-            self.pageNumber++;
-            if (self.pageNumber <= 6) {
-                // console.log(self.pageNumber);
-                var nwf = new Student(1, self.pageNumber, 6)
+            if (self.listlength < 40) {
+                self.pageNumber++;
+                if (self.pageNumber <= 4) {
+                    // console.log(self.pageNumber);
+                    self.getStudent(1, self.pageNumber, 5)
+                } else {
+                    self.lock = false;
+                }
+                console.log(self.listlength)
             } else {
+                console.log(self.listlength)
                 self.lock = false;
-            };
-
+            }
             //关锁
             self.lock = false;
         }
     });
-    // 加载
-
+    // 點擊加载
+    $(".loadall").click(function () {
+        $("#toutiao").empty();
+        var wfI = new Student(1, 1, 41);
+        $(".recAll").css("display", "none");
+    })
 }
-var indx = 0;
-$("#loadnextpage").click(function () {
-    indx++;
 
-    if (indx <= 3) {
-        var wf = new Student(1, 1, 5);
-    } else {
-        $("#more_bt").html("已经到底了")
-    }
-})
 
-var wf = new Student(1, 1, 41);
+var wf = new Student(1, 1, 10);
