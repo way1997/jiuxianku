@@ -22,6 +22,7 @@
   <script src="../js/commonality/jquery-1.12.3.min.js"></script>
   <script src="../js/wangchenyu/lazyload.js"></script>
   <script src="../js/commonality/jquery.lazyload.min.js"></script>
+  <script src="../js/commonality/underscore-min.js"></script>
 </head>
 
 <body>
@@ -105,11 +106,12 @@
   <input type="hidden" id="type" value="2">
 
 </body>
+
 <!-- 模板 -->
 <script type="text/template" id="template">
   <li class="clearfix">
     <a class="prodLink" href="javascript:;"></a>
-    <img class="prodImg lazy" src="<%=img%>">
+    <img class="prodImg lazy" src="<%=pordImg%>">
   <div class="prodInfo">
     <a class="name" href="javascript:;"><%=name%></a>
     <p class="slogan"><%=slogan%></p>
@@ -119,7 +121,6 @@
   </div>
 </li>
 </script>
-<script src="../js/commonality/underscore-min.js"></script>
 <script src="../js/wangchenyu/upTree.js"></script>
 
 </html>

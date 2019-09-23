@@ -10,9 +10,9 @@ function Student(phpnum, pageNumber, row) {
 
 }
 Student.prototype.getStudent = function (phpnum, pageNumber, pagrow) {
-    // console.log(phpnum, pageNumber, pagrow)
+    console.log(phpnum, pageNumber, pagrow)
     var self = this;
-    $.get("../../php/wangchenyu/" + phpnum + ".php?page=" + pageNumber + "&pagesize=" + pagrow, function (data) {
+    $.get("../php/wangchenyu/" + phpnum + ".php?page=" + pageNumber + "&pagesize=" + pagrow, function (data) {
         console.log(data);
         //转为对象
         var dataobj = typeof data == "object" ? data : eval("(" + data + ")");
@@ -79,4 +79,5 @@ $("#loadnextpage").click(function () {
         $("#more_bt").html("已经到底了")
     }
 })
+
 var wf = new Student(1, 1, 6);
