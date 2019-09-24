@@ -61,7 +61,7 @@
                     self.pageNumber++;
                     if (self.pageNumber <= 4) {
                         // console.log(self.pageNumber);
-                        self.getStudent(1, self.pageNumber, 5)
+                        self.getStudent(2, self.pageNumber, 5)
                     } else {
                         self.lock = false;
                     }
@@ -77,7 +77,7 @@
         // 點擊加载
         $(".loadall").click(function () {
             $("#toutiao").empty();
-            var wfI = new Student(1, 1, 41);
+            var wfI = new Student(2, 1, 41);
             $(".recAll").css("display", "none");
         })
     }
