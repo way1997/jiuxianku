@@ -22,27 +22,42 @@
     <script src="../js/commonality/jquery-1.12.3.min.js"></script>
     <script src="../js/wangchenyu/lazyload.js"></script>
     <script src="../js/commonality/underscore-min.js"></script>
+    <link rel="stylesheet" href="../css/wuyong/beer.css">
+    <style>
+        body {
+            background: #fff;
+        }
+    </style>
 </head>
 
 <body>
-    <!-- nav -->
-    <div class="publicHead" id="head">
-        <div class="head clearfix">
-            <a class="back" href="javascript:void(0)" onclick="backpage();"></a>
-            <h2 class="headTitle">洋酒</h2>
-            <a class="navBar" href="javascript:;"></a>
+    <!-- 头 -->
+    <header class="fixed flex sb">
+        <a href="" class="city-link">
+            <span href="" class="arrow-down"></span>
+        </a>
+        <h3>洋酒</h3>
+        <div class="san">
+            <ul class="nav ">
+                <li class="home">
+                    <i></i>
+                    <span>首页</span>
+                </li>
+                <li class="topsearch">
+                    <i></i>
+                    <span>搜索</span>
+                </li>
+                <li class="cart">
+                    <i></i>
+                    <span>购物车</span>
+                </li>
+                <li class="commuser">
+                    <i></i>
+                    <span>我的酒仙</span>
+                </li>
+            </ul>
         </div>
-        <ul class="nav">
-            <li class="home"><i></i><span>首页</span><a id="daohang_home" href="https://m.jiuxian.com/?from=topNav"></a>
-            </li>
-            <li class="topsearch"><i></i><span>搜索</span><a id="daohang_search"
-                    href="https://m.jiuxian.com/m_v1/search?from=topNav"></a></li>
-            <li class="cart"><i></i><span>购物车</span><a id="daohang_gouwuche"
-                    href="https://mcart.jiuxian.com/cart/info?from=topNav"></a></li>
-            <li class="commuser"><i></i><span>我的酒仙</span><a id="daohang_wodejiuxian"
-                    href="https://mmember.jiuxian.com/user?from=topNav"></a></li>
-        </ul>
-    </div>
+    </header>
     <!-- 广告栏 -->
     <div class="app-download" id="appdownload">
         <a href="javascript:;" class="close"><i class="close"></i></a> <span class="add-logo"></span>
@@ -116,6 +131,10 @@
 <script src="../js/wangchenyu/wine.js"></script>
 <script>
     var wf = new Student(2, 1, 10);
+    $(".san").click(function () {
+        $(".nav").toggle().addClass("on");
+    })
 </script>
+
 
 </html>

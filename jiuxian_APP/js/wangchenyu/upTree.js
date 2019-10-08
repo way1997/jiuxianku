@@ -62,9 +62,9 @@ Student.prototype.bindEvent = function () {
                 } else {
                     self.lock = false;
                 }
-                console.log(self.listlength)
+                // console.log(self.listlength)
             } else {
-                console.log(self.listlength)
+                // console.log(self.listlength)
                 self.lock = false;
             }
             //关锁

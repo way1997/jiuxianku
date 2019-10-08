@@ -1,0 +1,291 @@
+.fixed{
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    box-sizing:border-box;
+    z-index: 999;
+}
+.flex{
+	display: flex;
+	flex-direction: row;
+}
+.p10{
+	padding: 0 10px;
+}
+.sa{
+	justify-content: space-around;
+}
+.sb{
+	justify-content: space-between;
+}
+.tc{
+	text-align: center;
+}
+body{
+    background: #4d99b1;
+}
+/*       头部       */
+header{  
+	align-items: center;
+	height: 40px;
+    background-color: #de4943;
+	color:#fff;
+    font-size: 16px;
+    padding: 0 10px;
+    position: relative;
+}
+header a{
+	color:#fff;
+	opacity: .6;
+}
+header h3{
+	align-self: stretch;
+	margin:0 auto;
+    color: #fff;
+    font-size: 16px;
+    line-height: 40px;
+    font-weight: 400;
+    padding-left: 15px;
+	background-size: 78px auto;
+}
+header .city-link{
+	display: flex;
+}
+header .arrow-down{
+	width: 12px;
+    height: 12px;
+    border-bottom: 2px solid #fff;
+    border-right: 2px solid #fff;
+    transform: rotate(137deg);
+    margin-right: 4px;
+    position: relative;
+    top: 0px;
+    left: 14px;
+}
+header .san{
+    width: 30px;
+    height: 40px;
+    background: url(../../images/wuyong/headIcon.png);
+    background-position: -150px 6px;
+    right: 10px;
+    z-index: 999;
+}
+header .san ul{
+    position: absolute;
+    left: 0;
+    width: 100%;
+    height: 45px;
+    background-color: #efefef;
+    color: #848d96;
+    top: 40px;
+    border-bottom: 1px solid #ccc;
+}
+header .nav li {
+    width: 25%;
+    height: 45px;
+    float: left;
+    position: relative;
+}
+header .nav {
+    display: none;
+}
+header .on{
+    display: block;
+}
+header .nav li i {
+    width: 26px;
+    height: 20px;
+    display: block;
+    margin: 5px auto 0;
+    background: url(../../images/wuyong/headIcon.png) no-repeat;
+}
+header .nav li.home i{
+    background-position: -3px -5px;
+}
+header .nav .topsearch i {
+    background-position: -37px -5px;
+}
+header .nav .cart i {
+    background-position: -72px -5px;
+}
+header .nav .commuser i {
+    background-position: -113px -5px;
+}
+header .nav li span{
+    width: auto;
+    height: 18px;
+    line-height: 18px;
+    display: block;
+    text-align: center;
+
+}
+.top{
+    height: 40px;
+    width: 100%;
+}
+/* beijingtu */
+.bg{
+    width: 100%;
+}
+.bg img{
+   width: 100%;
+   height:auto;
+}
+.bg img:first-child{
+    margin-bottom: 13px;
+}
+
+/* classify */
+.classify{
+    padding-top: 2%;
+}
+
+.classify .list1{
+    padding-left: 2%;
+
+}
+.classify .list1 li{
+    float: left;
+    width: 48%;
+    margin: 0 2% 2% 0;
+    background: #fff;
+    box-sizing: border-box;
+    font-family: "微软雅黑";
+    padding-bottom: 2%;
+    position: relative;
+    z-index: 1;
+}
+.classify .list1 li.banner1{
+    width: 100%;
+    display: block;
+    margin-bottom: 2%;
+    padding: 0;
+    background: #4d99b1;
+}
+.classify .banner1 a {
+    width: 100%;
+}
+
+.classify .list1 li img{
+    width: auto;
+    height: 100%;
+}
+.classify .banner1 a img{
+    width: 100%;
+    height: auto;
+  
+}
+.classify .list1 li .pic {
+    position: relative;
+    z-index: 1;
+    text-align: center;
+    font-size: 0;
+    padding: 2% 0;
+    height: 140px;
+}
+.classify .list1 li .pic .mask{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform:translateX(-50%) translateY(-50%);
+    width: 70%;
+    height: 50px;
+    background: rgba(0,0,0,0.5);
+    color:#fff;
+    font-size:18px;
+    line-height: 50px;
+    text-align: center;
+    font-weight: bold;
+    display: none;
+}
+.classify .list1 li .name {
+    height: 28px;
+    line-height: 14px;
+    width: 90%;
+    margin: 2% 5%;
+    font-size: 12px;
+    color: #000;
+    text-align: center;
+    overflow: hidden;
+}
+.classify .list1 .adText {
+    font-size: 12px;
+    margin: 0 5%;
+    width: 90%;
+    color: #fc0000;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    height: 21px;
+    line-height: 21px;
+}
+.classify .list1 .orice{
+    height: 32px;
+    margin: 5px 5% 0;
+    text-align: center;
+    position: relative;
+    z-index: 11;
+    overflow: hidden;
+}
+.classify .list1 .orice p{
+    height: 32px;
+    line-height: 32px;
+    float: left;
+}
+li .orice span {
+    color: #ff0000;
+    font-weight: bold;
+    font-size: 14px;
+}
+.classify .list1 li .orice del {
+    color: #7a7a7a;
+    font-size: 12px;
+    padding-left: 3px;
+}
+.classify .list1 li .gobuy {
+    background: #ff0000;
+    display: block;
+    float: right;
+    width: 40%;
+    height: 24px;
+    line-height: 24px;
+    color: #fff;
+    text-align: center;
+    font-size: 12px;
+    border-radius: 3px;
+    margin-top: 4px;
+}
+.clear{
+    clear: both
+}
+.imgs img{
+    width: 50%;
+    height: auto;
+}
+/* gotop */
+.gotop{
+    padding: 30px 0;
+}
+.gotop .totop {
+    width: 50px;
+    height: 50px;
+    display: block;
+    margin: 0 auto;
+    border-radius: 50px;
+    border: 3px solid #ff2753;
+    background-color: #fff;
+}
+.gotop .totop  i{
+    width: 100%;
+    padding-left: 20px;
+}
+.gotop .totop span{
+    font-size: 14px;
+    width: 100%;
+    height: auto;
+    display: block;
+    color: #280130;
+    line-height: 15px;
+    text-align: center;
+}
